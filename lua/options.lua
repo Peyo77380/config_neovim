@@ -9,3 +9,4 @@ vim.opt.relativenumber = true		-- set relative numbered lines
 vim.opt.undofile = true				-- persistent undo
 vim.opt.updatetime = 300			-- set completion speed (4000ms default)
 vim.opt.wrap = true
+vim.opt.hlsearch = true				-- highlight group
