@@ -10,3 +10,9 @@ vim.opt.undofile = true				-- persistent undo
 vim.opt.updatetime = 300			-- set completion speed (4000ms default)
 vim.opt.wrap = true
 vim.opt.hlsearch = true				-- highlight group
+
+vim.opt.syntax = on 
+vim.opt.termguicolors = true
+
+vim.opt.splitbelow = true
+vim.opt.completeopt = { "menuone", "noselect" }
