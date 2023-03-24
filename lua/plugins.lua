@@ -58,6 +58,10 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lsp"
 
 
+  use {
+	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
+	  requires = { {'nvim-lua/plenary.nvim'} }
+  }
   use "nvim-treesitter/nvim-treesitter" 
   use {'neoclide/coc.nvim', branch = 'release'}  
   -- Automatically set up your configuration after cloning packer.nvim
