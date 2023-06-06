@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/peyo/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
+  neomake = {
+    loaded = true,
+    path = "/home/peyo/.local/share/nvim/site/pack/packer/start/neomake",
+    url = "https://github.com/neomake/neomake"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/peyo/.local/share/nvim/site/pack/packer/start/nvim-cmp",
