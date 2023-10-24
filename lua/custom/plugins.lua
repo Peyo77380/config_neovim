@@ -1,32 +1,46 @@
 local plugins = {
- -- {
- --    "neoclide/coc.nvim",
- --    ft="php",
- --    branch="release"
- --  },
   {
     "williamboman/mason.nvim",
-    opts = {
+    dependencies = {
+      "williamboman/mason-lspconfig.nvim",
+    },
+    opt = {
       ensure_installed = {
+        "apex_ls",
+        "bashls",
+        "cssls",
+        "dockerls",
+        "docker_compose_language_service",
+        "eslint",
+        "html",
+        "jsonls",
+        "tsserver",
+        "lua_ls",
+        "remark_ls",
+        "spectral",
         "intelephense",
-        "html-lsp",
-        "prettier",
-        "eslint-lsp",
-        "lua-language-server",
-        "clangd",
-        "cssls"
+        "pyright",
+        "sqlls",
+        "svelte",
+        "tailwindcss",
+        "vuels",
+        'yamlls',
+        'lemminx'
       }
     }
   },
   {
+    "williamboman/mason-lspconfig.nvim",
+  },
+  {
     "neovim/nvim-lspconfig",
 
-   dependencies = {
-     "jose-elias-alvarez/null-ls.nvim",
-     config = function()
-       require "custom.configs.null-ls"
-     end,
-   },
+    dependencies = {
+      "jose-elias-alvarez/null-ls.nvim",
+      config = function()
+        require "custom.configs.null-ls"
+      end,
+    },
     config = function ()
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
