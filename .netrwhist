@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/peyo/dev/mirrapay'
+let g:netrw_dirhist_4='/home/peyo/dev/mirra'
+let g:netrw_dirhist_3='/home/peyo/dev/mirrapay'
+let g:netrw_dirhist_2='/home/peyo/dev/mirra'
+let g:netrw_dirhist_1='/home/peyo/dev/mirra/src/Controller/Admin'
+let g:netrw_dirhist_0='/home/peyo/dev/mirra/src/Controller'
+let g:netrw_dirhist_9='/home/peyo/dev/mirra/src'
+let g:netrw_dirhist_8='/home/peyo/dev/mirra'
+let g:netrw_dirhist_7='/home/peyo/dev/rivashop-v3'
+let g:netrw_dirhist_6='/home/peyo/dev/mirra'
